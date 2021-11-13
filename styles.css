@@ -1,0 +1,74 @@
+/* every paragraphe */
+p{
+    color:blue;
+    font-size: 20px;
+    width: 600px;
+}
+
+/* class selector, several */
+/*every selectors (div,p) have blue color*/
+.blue{
+    color:blue
+}
+
+/*id selector, unique */
+#name{
+    color: darkblue;
+}
+
+/*grouping selector*/
+div, .blue{
+    color: red;
+    font-size: 20px;
+
+}
+
+/*Elements with class selector = <p class="big"></p>*/
+p.big{
+    font-size: 50px;
+
+}
+
+/*child selector= element which is just after article*/
+article > p{
+    color: green;
+}
+/*descendant selector= every element p in article take colro blue violet*/
+article p{
+    color: blueviolet;
+}
+
+/*pseudo-class selector*/
+header li{
+    list-style: none;
+}
+ /*:link, :visited*/
+a:link, a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+/*:hover*/
+a:hover, a:active{
+    background-color: red;
+    color: purple;
+
+}
+/*:select*/
+/*:nth:child*/
+header li:nth-child(3){
+    font-size: 24px;
+}
+
+#mySection {
+    color: green;
+  }
+  
+  .myColor {
+    color: blue;
+  }
