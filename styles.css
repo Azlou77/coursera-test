@@ -112,3 +112,10 @@ body{
     padding: 0;
     background-color: gray;
 }
+
+/*model box part2*/
+*{
+    box-sizing: border-box;
+}
+
+/*margin collapse= when 2 div elements 1 on top, 1 on bottom have a common margin */
