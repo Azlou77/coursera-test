@@ -89,36 +89,59 @@ header li:nth-child(3){
     font-size: 30px alors si on met 3em la taille est de 90px soit 3 fois la taille 
 
 }
+
 */
 
 /*box model */
-#box{
+/*#box{
     background-color: blue;
-    padding: 10px 30px 10px 30px;
-    border:  20px solid black;
+    padding: 10px ;
+    border:  5px solid black;
     width: 300px;
     margin-top: 50px;
+    height: 50px;
+    overflow: scroll;
 
 
 }
 #content{
     background-color: green;
 }
+*/
 h1{
     margin-bottom:30px ;
 }
 body{
     margin:0;
     padding: 0;
-    background-color: gray;
+    
 }
 
-/*model box part2*/
+/*model box part2
 *{
     box-sizing: border-box;
 }
+*/
 
 /*margin collapse= when 2 div elements 1 on top, 1 on bottom have a common margin */
 
 /*box model part3*/
 
+/*div {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    border: 10px solid black;
+    box-sizing: border-box; 
+    //when we have border-sizing the div=width=100px, 
+    else 140px because border= 10px donc border*4 40px
+}
+*/
+
+/*background*/
+/*background color, image*/
+
+#back {
+    background-color: red;
+   
+}
