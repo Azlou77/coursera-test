@@ -1,47 +1,50 @@
-/* every paragraphe */
-p{
-    color:blue;
-    font-size: 20px;
-    width: 600px;
-}
+
 
 /* class selector, several */
-/*every selectors (div,p) have blue color*/
+/*every selectors (div,p) have blue color
 .blue{
     color:blue
 }
+*/
 
-/*id selector, unique */
+/*id selector, unique 
 #name{
     color: darkblue;
 }
+*/
 
-/*grouping selector*/
+/*grouping selector
 div, .blue{
     color: red;
     font-size: 20px;
 
 }
+*/
 
-/*Elements with class selector = <p class="big"></p>*/
+/*Elements with class selector = <p class="big"></p>
 p.big{
     font-size: 50px;
 
 }
+*/
 
-/*child selector= element which is just after article*/
+
+/*child selector= element which is just after article
 article > p{
     color: green;
 }
-/*descendant selector= every element p in article take colro blue violet*/
+*
+/*descendant selector= every element p in article take colro blue violet
 article p{
     color: blueviolet;
 }
+*/
 
-/*pseudo-class selector*/
+/*pseudo-class selector
 header li{
     list-style: none;
 }
+*/
  /*:link, :visited*/
 a:link, a:visited{
     text-decoration: none;
@@ -107,7 +110,7 @@ header li:nth-child(3){
 #content{
     background-color: green;
 }
-*/
+
 h1{
     margin-bottom:30px ;
 }
@@ -116,6 +119,7 @@ body{
     padding: 0;
     
 }
+*/
 
 /*model box part2
 *{
@@ -139,9 +143,39 @@ body{
 */
 
 /*background*/
-/*background color, image*/
+/*background color, image
+
 
 #back {
     background-color: red;
    
+}
+*/
+/*floating elements*/
+#p1{
+    background-color: blueviolet;
+    
+} 
+#p2{
+    background-color: green;
+    
+}
+#p3{
+    background-color: yellow;
+
+}
+#p4{
+    background-color: pink ;
+    
+    
+}
+/* every paragraphe */
+p{
+    width:50px;
+    height: 50px;
+    border: 1px solid black;
+    clear: left;
+ 
+
+
 }
