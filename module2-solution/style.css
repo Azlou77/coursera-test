@@ -9,7 +9,7 @@
       display: flex;
       margin-right: 20px;
 
-        }
+    }
 
     .img-responsive{
         
@@ -17,11 +17,8 @@
         width: 250px;
         display: block;
         margin: auto;
-    
-       
-        
-        
     }
+
     p{
         color:gold;
         text-align: left;
@@ -33,11 +30,46 @@
        border: white     1px    solid;
        background-color: cornflowerblue;
        flex:1;
-
-      }
+    }
 
 
 @media   screen and (min-width:768px) , (max-width:991px){
+
+    .galerie{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 130px;
+  
+    }
+  
+    .img-responsive{
+        
+        height: 150px;
+        width: 150px;
+    }
+
+    .item:nth-child(-n+2) {     
+            max-width: 100%;
+            width:100%;
+            margin-left: 18%;
+            border: white     1px    solid;
+            background-color: cornflowerblue;
+            display: block;
+    }
+
+    .item:nth-child(3) {
+        max-width: 991px;
+        width:100%;
+        margin-left: 18%;
+        border: white     1px    solid;
+        background-color: cornflowerblue;
+        display: block;
+        margin-top: 50px;
+     
+    }
+
+
+    
     
 
        
