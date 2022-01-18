@@ -2,6 +2,10 @@
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
+  /* flex-direction: column;*/
+  flex-wrap: wrap;
+  /*répartit les items de manière egal*/
+  justify-content: space-evenly;
 }
 
 .flex-container > div {
