@@ -78,16 +78,41 @@
          margin-top:50px;
      }
     
-     .item:nth-child(3) p{
-        padding-left: 30%;
-        width: 80%;
-    }
-    
+     
     
 
        
    
 }
-@media   screen and (max-width:767px){
+@media   (max-width:767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        
+   
+      }
+      .item{
+          margin-top: 20px;
+      }
+
+      .item h3{
+        padding-left: 15%;
+        width: 45%;
+        margin-left: 55%;
+        
+        
+     
+    
+    }
+    .item:nth-child(2) h3{
+        padding-left: 15%;
+        width: 45%;
+        margin-left: 55%;
+    
+    }
+    
+
+
 
 }
