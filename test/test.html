@@ -5,7 +5,16 @@
         <link rel="stylesheet" a href="test.css">
         <style>
             ul{
+                height:800px;
                 display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: flex-start;
+               
+
+            }
+            ul li:hover{
+                align-self: stretch ;
             }
         </style>
       
@@ -18,10 +27,12 @@
         <h1>Comprendre les Flexbox</h1>
         <ul>
             <li>Un</li>
-            <li>Deux</li>
-            <li class="main">Trois</li>
-            <li>Quatre</li>
+            <li class="big">Deux</li>
+            <li class="rebel" >Trois</li>
+            <li class="small">Quatre</li>
             <li>Cinq</li>
+  
+          
           
         </ul>
     </body>
