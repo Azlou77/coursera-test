@@ -1,16 +1,25 @@
-
-.flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-  /* flex-direction: column;*/
-  flex-wrap: wrap;
-  /*répartit les items de manière egal*/
-  justify-content: space-evenly;
+body{
+	background-color: #6A9AE1;
+	padding: 0;
+	margin: 0;
 }
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+h1{
+	margin: 20px auto;
+	color: #FFF;
+	width: 960px;
+}
+ul{
+	width: 960px;
+	margin: 0 auto;
+	list-style: none;
+	box-sizing: border-box;
+	border: 3px solid #FFF;
+	padding: 10px;
+	background-color: #E7E7E7;
+}
+li{
+	background-color: #FFF;
+	padding: 20px;
+	font-size: 2em;
+	border: solid 3px #6A9AE1;
 }
