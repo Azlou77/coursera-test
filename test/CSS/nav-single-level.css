@@ -1,0 +1,6 @@
+/* Styles pour la navigation à un seul niveau */
+@media screen and (min-width:300em){
+    .single-nav-ul{
+        display:flex;
+    }
+}
