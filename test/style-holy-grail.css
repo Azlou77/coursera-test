@@ -1,5 +1,5 @@
 /*
-The primary stylesheet for the Flexbox Cards Demo web page. This sheet pulls in all the components in order of appearance.
+The primary stylesheet for the Flexbox Holy Grail layout demo web page. This sheet pulls in all the components in order of appearance.
 */
 
 @import url('CSS/reset.css');
@@ -7,4 +7,4 @@ The primary stylesheet for the Flexbox Cards Demo web page. This sheet pulls in 
 @import url('CSS/layout.css');
 @import url('CSS/typography.css');
 @import url('CSS/masthead.css');
-@import url('CSS/card-styles.css');
+@import url('CSS/holy-grail.css');
